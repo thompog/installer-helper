@@ -20,10 +20,34 @@ PATHS;=
 EOF;;
 ```
 
-after doing that write your urls after URLS;= but befor PATHS;= kinda like this:
+after doing that write your urls after URLS;= but befor PATHS;= like this:
 ```
 URLS;=
 https://raw.githubusercontent.com/yourgithub/your repo/refs/heads/main/yourfile.txt
 PATHS;=
 EOF;;
 ```
+
+after that you write your file path like this:
+```
+URLS;=
+https://raw.githubusercontent.com/yourgithub/your repo/refs/heads/main/yourfile.txt
+PATHS;=
+C:\To\Your\file.txt
+EOF;;
+```
+
+the end resolt shold look like kinda this:
+´´´
+URLS;=
+https://raw.githubusercontent.com/thompog/bob/refs/heads/main/text_tqdm_install_system.txt
+https://www.github.com/thompog/bob/raw/refs/heads/main/bomba.exe
+https://www.github.com/thompog/d/blob/main/japper.zip
+PATHS;=
+C:\Users\Public\test\text_tqdm_install_system.txt
+C:\Users\Public\test\bomba.exe
+C:\Users\Public\test\japper.zip
+EOF;;
+´´´
+
+the nice thing is that you can use eny kind of file type and inf amout of files to install just keep adding files and urls
