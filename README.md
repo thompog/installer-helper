@@ -104,7 +104,7 @@ pause
 exit /b 0
 ```
 
-# LICONSE
+# LICENSE
 
 MIT License
 
