@@ -37,7 +37,7 @@ EOF;;
 ```
 
 the end resolt shold look like kinda this:
-´´´
+```
 URLS;=
 https://raw.githubusercontent.com/thompog/bob/refs/heads/main/text_tqdm_install_system.txt
 https://www.github.com/thompog/bob/raw/refs/heads/main/bomba.exe
@@ -47,7 +47,7 @@ C:\Users\Public\test\text_tqdm_install_system.txt
 C:\Users\Public\test\bomba.exe
 C:\Users\Public\test\japper.zip
 EOF;;
-´´´
+```
 
 the nice thing is that you can use eny kind of file type and inf amout of files to install just keep adding files and urls
 
@@ -55,7 +55,7 @@ the nice thing is that you can use eny kind of file type and inf amout of files 
 
 # setup file
 you maby dont want to leek your urls and file to a user well then just set up a file just do somthing like this:
-´´´batch
+```batch
 @echo off
 title set up
 
@@ -102,4 +102,4 @@ goto end
 echo think you for useing this app just that the program when your ready!
 pause
 exit /b 0
-´´´
+```
