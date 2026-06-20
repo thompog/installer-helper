@@ -16,8 +16,8 @@ in the same dir as the installer helper.exe make a txt file name it "config"
 
 then inside write this:
 
-'''
-  URLS;=
-  PATHS;=
-  EOF;;
+'''text
+URLS;=
+PATHS;=
+EOF;;
 '''
