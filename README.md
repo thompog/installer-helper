@@ -16,8 +16,8 @@ in the same dir as the installer helper.exe make a txt file name it "config"
 
 then inside write this:
 
-'''bash
+```
 URLS;=
 PATHS;=
 EOF;;
-'''
+```
