@@ -19,3 +19,11 @@ URLS;=
 PATHS;=
 EOF;;
 ```
+
+after doing that write your urls after URLS;= but befor PATHS;= kinda like this:
+```
+URLS;=
+[https://www.github](https://raw.githubusercontent.com/yourgithub/your repo/refs/heads/main/yourfile.txt)
+PATHS;=
+EOF;;
+```
