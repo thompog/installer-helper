@@ -15,7 +15,8 @@ this installer is so easy to set up that you unly need 4 things
 in the same dir as the installer helper.exe make a txt file name it "config"
 
 then inside write this:
-'''URLS;=
+'''
+URLS;=
 PATHS;=
 EOF;;
 '''
